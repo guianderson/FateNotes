@@ -1,35 +1,34 @@
 # FateNotes 
-- Para vizualizar aplicaÃ§Ã£o em funcionamento acesse: https://fatenotes.herokuapp.com/
+FateNotes é um projeto desenvolvido em Java Spring Boot, com o objetivo de servir como uma agenda, onde o usuário pode guardar textos ou anotações.
+- Para vizualizar a aplicação em funcionamento acesse: https://fatenotes.herokuapp.com/
 
-FateNotes ï¿½ um projeto desenvolvido em Java Spring Boot, com o objetivo de servir como uma agenda, onde o usuï¿½rio pode guardar textos ou anotaï¿½ï¿½es.
-
-# Tï¿½cnologias Utilizadas
+# Técnologias Utilizadas
   - Maven
   - Java
   - Spring Boot
   - Apache Tomcat
 
-### Tï¿½cnologias Utilizadas
+### Técnologias Utilizadas
 
-As tï¿½cnologias utilizadas para o desenvolvimento da aplicaï¿½ï¿½o sï¿½o:
+As técnologias utilizadas para o desenvolvimento da aplicação são:
 
-* [HTML5] - Linguagem para estruturaï¿½ï¿½o e apresentaï¿½ï¿½o de conteï¿½do para a World Wide Web e ï¿½ uma tecnologia chave da Internet;
+* [HTML5] - Linguagem para estruturação e apresentação de conteúdo para a World Wide Web e é uma tecnologia chave da Internet;
 * [CSS3] - Utilizado para definir estilos para um projeto web;
-* [Frameword Bootstrap] - Framework web com cï¿½digo-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicaï¿½ï¿½es web;
-* [Java] - Linguagem de Programaï¿½ï¿½o;
-* [Spring Boot] - O Spring Boot fornece a maioria dos componentes baseados no Spring necessï¿½rios em aplicaï¿½ï¿½es em geral de maneira prï¿½-configurada, tornando possï¿½vel termos uma aplicaï¿½ï¿½o rodando em produï¿½ï¿½o rapidamente com o esforï¿½o mï¿½nimo de configuraï¿½ï¿½o e implantaï¿½ï¿½o;
-* [Maven] - Ajuda a gerenciar compilaï¿½ï¿½es, documentos, relatï¿½rios, dependï¿½ncias, configuraï¿½ï¿½es de software, releases e distribuiï¿½ï¿½es;
-* [Apache Tomcat] - O Tomcat ï¿½ um servidor web Java, mais especificamente, um container de servlets;
+* [Frameword Bootstrap] - Framework web com código-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicações web;
+* [Java] - Linguagem de Programação;
+* [Spring Boot] - O Spring Boot fornece a maioria dos componentes baseados no Spring necessários em aplicações em geral de maneira pré-configurada, tornando possível termos uma aplicação rodando em produção rapidamente com o esforço mínimo de configuração e implantação;
+* [Maven] - Ajuda a gerenciar compilações, documentos, relatórios, dependências, configurações de software, releases e distribuições;
+* [Apache Tomcat] - O Tomcat é um servidor web Java, mais especificamente, um container de servlets;
 * IntelliJ IDEA Ultimate - Ambiente de desenvolvimento integrado escrito em Java para o desenvolvimento de software de computador.
 
-### Instaï¿½ï¿½o e Configuraï¿½ï¿½o
+### Instação e Configuração
 
-Clonar o repositï¿½rio: https://github.com/guianderson/Projeto_blog.git
+Clonar o repositório: https://github.com/guianderson/Projeto_blog.git
 
-Ao importar o projeto Maven, sua IDE, vai instalar automï¿½ticamente todas as dependï¿½ncias do projeto.
+Ao importar o projeto Maven, sua IDE, vai instalar automáticamente todas as dependências do projeto.
 
-Apï¿½s clonar o repositï¿½rio e Importar o projeto Maven, navegar atï¿½ o arquivo: application.properties
-Nele vocï¿½ encontrarï¿½ o seguinte cï¿½digo:
+Após clonar o repositório e Importar o projeto Maven, navegar até o arquivo: application.properties
+Nele você encontrará o seguinte código:
 ```sh
 spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 #Banco local - Blog
@@ -46,88 +45,39 @@ spring.datasource.url = jdbc:postgresql://localhost:PORTA/NOME_DO_PROJETO_NO_BAN
 spring.datasource.username=USUARIO_ROOT_DO_BANCO
 spring.datasource.password=SENHA_ROOT_DO_BANCO
 ```
-O restante das configuraï¿½ï¿½es devem ficar da forma que estï¿½o.
+O restante das configurações devem ficar da forma que estão.
 
-# FateNotes
-
-FateNotes ï¿½ um projeto desenvolvido em Java Spring Boot, com o objetivo de servir como uma agenda, onde o usuï¿½rio pode guardar textos ou anotaï¿½ï¿½es.
-
-# Tï¿½cnologias Utilizadas
-  - Maven
-  - Java
-  - Spring Boot
-  - Apache Tomcat
-
-### Tï¿½cnologias Utilizadas
-
-As tï¿½cnologias utilizadas para o desenvolvimento da aplicaï¿½ï¿½o sï¿½o:
-
-* [HTML5] - Linguagem para estruturaï¿½ï¿½o e apresentaï¿½ï¿½o de conteï¿½do para a World Wide Web e ï¿½ uma tecnologia chave da Internet;
-* [CSS3] - Utilizado para definir estilos para um projeto web;
-* [Frameword Bootstrap] - Framework web com cï¿½digo-fonte aberto para desenvolvimento de componentes de interface e front-end para sites e aplicaï¿½ï¿½es web;
-* [Java] - Linguagem de Programaï¿½ï¿½o;
-* [Spring Boot] - O Spring Boot fornece a maioria dos componentes baseados no Spring necessï¿½rios em aplicaï¿½ï¿½es em geral de maneira prï¿½-configurada, tornando possï¿½vel termos uma aplicaï¿½ï¿½o rodando em produï¿½ï¿½o rapidamente com o esforï¿½o mï¿½nimo de configuraï¿½ï¿½o e implantaï¿½ï¿½o;
-* [Maven] - Ajuda a gerenciar compilaï¿½ï¿½es, documentos, relatï¿½rios, dependï¿½ncias, configuraï¿½ï¿½es de software, releases e distribuiï¿½ï¿½es;
-* [Apache Tomcat] - O Tomcat ï¿½ um servidor web Java, mais especificamente, um container de servlets;
-* IntelliJ IDEA Ultimate - Ambiente de desenvolvimento integrado escrito em Java para o desenvolvimento de software de computador.
-
-### Instaï¿½ï¿½o e Configuraï¿½ï¿½o
-
-Clonar o repositï¿½rio: https://github.com/guianderson/Projeto_blog.git
-
-Ao importar o projeto Maven, sua IDE, vai instalar automï¿½ticamente todas as dependï¿½ncias do projeto.
-
-Apï¿½s clonar o repositï¿½rio e Importar o projeto Maven, navegar atï¿½ o arquivo: application.properties
-Nele vocï¿½ encontrarï¿½ o seguinte cï¿½digo:
-```sh
-spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
-#Banco local - Blog
-spring.datasource.url= jdbc:postgresql://localhost:5435/codeblog
-spring.datasource.username=postgres
-spring.datasource.password=123
-spring.jpa.hibernate.ddl-auto=update
-```
-
-### Como configurar?
-
-```sh
-spring.datasource.url = jdbc:postgresql://localhost:PORTA/NOME_DO_PROJETO_NO_BANCO
-spring.datasource.username=USUARIO_ROOT_DO_BANCO
-spring.datasource.password=SENHA_ROOT_DO_BANCO
-```
-O restante das configuraï¿½ï¿½es devem ficar da forma que estï¿½o.
-
-# Pï¿½ginas do Sistema
+# Páginas do Sistema
 
 ### Tela - Inicial
 ![pag_inicial](https://user-images.githubusercontent.com/47038612/98030335-a0607f80-1def-11eb-8c5f-42ab30708c0f.png)
-Pï¿½gina inicial do Sistema, assim que o usuï¿½rio executar o projeto, acessarï¿½ estï¿½ pï¿½gina, onde serï¿½ exibido para o mesmo uma breve explicaï¿½ï¿½o do que ï¿½ o projeto,
-e um botï¿½o para que ele acesse a plataforma de anotaï¿½ï¿½es.
+Página inicial do Sistema, assim que o usuário executar o projeto, acessará está página, onde será exibido para o mesmo uma breve explicação do que é o projeto,
+e um botão para que ele acesse a plataforma de anotações.
 
 ### Tela - Sobre
 ![sobre](https://user-images.githubusercontent.com/47038612/98030817-5926be80-1df0-11eb-9f46-ca2fd3fca927.png)
-Descendo um Pouco, serï¿½ exibida a tela "Sobre o Projeto", a qual fornecerï¿½ uma explicaï¿½ï¿½o mais detalhada sobre o projeto.
+Descendo um Pouco, será exibida a tela "Sobre o Projeto", a qual fornecerá uma explicação mais detalhada sobre o projeto.
 
 ### Tela - Desenvolvedor
 ![desenvolvedor](https://user-images.githubusercontent.com/47038612/98030329-9f2f5280-1def-11eb-856f-eaa4c28273ae.png)
 Tela que mostrar um pouco sobre mim (Guilherme Anderson)
 
-### Pï¿½gina Inicial do Sistema - Pï¿½gina dos Posts
+### Página Inicial do Sistema - Página dos Posts
 ![descricao_post](https://user-images.githubusercontent.com/47038612/98032683-1d412880-1df3-11eb-82ab-99c4125d3a0e.png)
-Nesta pï¿½gina, sï¿½o exibidos uma parde de cada post cadastrado no sistema.
-- Clicando em "Deletar Post", o usuï¿½rio serï¿½ direcionado para uma pï¿½gina de login, onde deverï¿½ inserir usuï¿½rio e senha de administrador do sistema, pois somente o admin tem acesso para deletar algum post, apï¿½s isso o post serï¿½ deletado e o usuï¿½rio redirecionado para ï¿½ pï¿½gina que contï¿½m todos os posts.
+Nesta página, são exibidos uma parde de cada post cadastrado no sistema.
+- Clicando em "Deletar Post", o usuário será direcionado para uma página de login, onde deverá inserir usuário e senha de administrador do sistema, pois somente o admin tem acesso para deletar algum post, após isso o post será deletado e o usuário redirecionado para à página que contém todos os posts.
 
-### Pï¿½gina que contï¿½m a descriï¿½ï¿½o completa do Post
+### Página que contém a descrição completa do Post
 ![descricao_post](https://user-images.githubusercontent.com/47038612/98032761-406bd800-1df3-11eb-9a68-57c71ba008ac.png)
-Ao clicar sobre o titulo do post, o usuï¿½rio ï¿½ redirecionado para estï¿½ pï¿½gina, onde ï¿½ exibido o conteudo completo do post cadastrado.
-- Clicando em "Deletar Post", o usuï¿½rio serï¿½ direcionado para uma pï¿½gina de login, onde deverï¿½ inserir usuï¿½rio e senha de administrador do sistema, pois somente o admin tem acesso para deletar algum post, apï¿½s isso o post serï¿½ deletado e o usuï¿½rio redirecionado para ï¿½ pï¿½gina que contï¿½m todos os posts.
+Ao clicar sobre o titulo do post, o usuário é redirecionado para está página, onde é exibido o conteudo completo do post cadastrado.
+- Clicando em "Deletar Post", o usuário será direcionado para uma página de login, onde deverá inserir usuário e senha de administrador do sistema, pois somente o admin tem acesso para deletar algum post, após isso o post será deletado e o usuário redirecionado para à página que contém todos os posts.
 
-### Pï¿½gina - "Login"
+### Página - "Login"
 ![login](https://user-images.githubusercontent.com/47038612/98033405-3696a480-1df4-11eb-83ad-e8f4dd336cb5.png)
-Ao clicar em "Deletar Post" ou "Novo Post" o usuï¿½rio serï¿½ direcionado para estï¿½ pï¿½gina de Login do sistema, que foi determinado utilizando o securityConfig.
-- Apenas o administrador do sistema possui permissï¿½o para criar ou deletar qualquer post.
+Ao clicar em "Deletar Post" ou "Novo Post" o usuário será direcionado para está página de Login do sistema, que foi determinado utilizando o securityConfig.
+- Apenas o administrador do sistema possui permissão para criar ou deletar qualquer post.
 
-### Pï¿½gina - "Novo Post"
+### Página - "Novo Post"
 ![novo_post](https://user-images.githubusercontent.com/47038612/98033669-9e4cef80-1df4-11eb-9de3-4f411138dd84.png)
-Apï¿½s fazer login na plataforma, o usuï¿½rio terï¿½ acesso ï¿½ estï¿½ pï¿½gina, onde poderï¿½ escrever seu post da forma que quiser, todos os campos sï¿½o obrigatï¿½rios, depois de preencher todos os campos, clicando em publicar o post serï¿½ inserido no banco de dados e serï¿½ exibido na pï¿½gina inicial dos posts.
+Após fazer login na plataforma, o usuário terá acesso à está página, onde poderá escrever seu post da forma que quiser, todos os campos são obrigatórios, depois de preencher todos os campos, clicando em publicar o post será inserido no banco de dados e será exibido na página inicial dos posts.
 
